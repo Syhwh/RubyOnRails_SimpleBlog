@@ -1,24 +1,10 @@
-# README
+# Simple Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This a simple blog app developed on Ruby On Rails.
 
-Things you may want to cover:
+Features:
+Add, edit and delete posts
+Add comments.
+Functions: Add a new post, delete and delete commentes uses a simple http user autentication
+Boostrap 4.0
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
