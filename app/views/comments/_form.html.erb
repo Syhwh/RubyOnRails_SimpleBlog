@@ -1,0 +1,14 @@
+<%=form_for( [@post , @post.comments.build]) do |f| %>
+<h5 class="card-title"> <%= f.label:username %></h5>
+<%= f.text_field(:username,{:class => 'form-control'}) %> 
+    <p class="card-text">
+    
+    <h6><%= f.label :body%></h6>
+    <%= f.text_area(:body,{:class => 'form-control'}) %> 
+    </p>
+
+   
+    <%= f.submit ({:class => 'btn btn-default'}) %>
+
+
+<% end %>
